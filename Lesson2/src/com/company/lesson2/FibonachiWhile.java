@@ -1,4 +1,4 @@
-package com.company;
+package com.company.lesson2;
 
 /**
  * Created by Arsen on 16.07.15.
@@ -14,7 +14,7 @@ public class FibonachiWhile {
             x3=x1;
             x1=x2;
             x2=x1+x3;
-            i=i+1;
+            i++;
     }
 }
 }
