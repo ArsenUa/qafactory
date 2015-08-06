@@ -7,6 +7,14 @@ import java.util.Arrays;
  * Created by Arsen on 04.08.15.
  */
 public class Lesson6 {
+
+        public void newMethod(){
+                System.out.println("new non static");
+        }
+
+        public static void newMethod2(){
+                System.out.println("static");
+        }
     public static void main(String[] args) {
 ArrayList<Integer> a= new ArrayList<Integer>();
         System.out.println(a.size());//0
